@@ -1,0 +1,44 @@
+.navbar{
+  position: fixed;
+  z-index: 16900000;
+  width: 100vw;
+  height: 17vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: var(--BP-gray);
+  /* background-color: #f0f0f0; */
+}
+.logo{
+  position: relative;
+  width: 12vw;
+  margin-left: 7vw;
+  cursor: pointer;
+}
+.rightSideNav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.phoneNumber a{
+  text-decoration: none;
+  color: var(--BP-gray);
+  margin-right: 4vw;
+}
+.hamburgerIcon{
+  position: relative;
+  width: 4vw;
+  margin-right: 7vw;
+  cursor: pointer;
+}
+@media only screen and (max-width: 750px){
+  .logo{
+    width: 28vw;
+  }
+  .phoneNumber a{
+    font-size: 0.8rem;
+  }
+  .hamburgerIcon{
+    width: 12vw;
+  }
+}

@@ -1,0 +1,29 @@
+.navmenu{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color:rgba(255,255,255,0.5);
+  z-index: 2147483647;
+  backdrop-filter: blur(10px);
+}
+.navmenu-innerbox{
+  width: 100%;
+  text-align: center;
+  -ms-transform: translateY(-50%);
+  transform: translateY(50%);
+}
+ul{
+  list-style-type: none;
+  font-size: 1.5rem;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+}
+li{
+  margin: 1rem;
+}
+button{
+  font-size: 1.5rem;
+  margin: 1rem;
+}

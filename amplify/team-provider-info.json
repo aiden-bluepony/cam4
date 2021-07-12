@@ -1,0 +1,23 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-cam4-dev-122451-authRole",
+            "UnauthRoleArn": "arn:aws:iam::514738442429:role/amplify-cam4-dev-122451-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::514738442429:role/amplify-cam4-dev-122451-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-cam4-dev-122451-deployment",
+            "UnauthRoleName": "amplify-cam4-dev-122451-unauthRole",
+            "StackName": "amplify-cam4-dev-122451",
+            "StackId": "arn:aws:cloudformation:us-east-1:514738442429:stack/amplify-cam4-dev-122451/afe3d6b0-e32d-11eb-bb2b-0afa5528cb21",
+            "AmplifyAppId": "d1933lsh9jdune"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d1933lsh9jdune",
+                    "type": "manual"
+                }
+            }
+        }
+    }
+}
